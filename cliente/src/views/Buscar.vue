@@ -1,7 +1,12 @@
 <template>
   <main>
     <b-input-group>
-      <b-form-input placeholder="Buscar un viaje" v-model="busqueda" :state="state"></b-form-input>
+      <b-form-input
+        placeholder="Buscar un viaje"
+        v-model="busqueda"
+        :state="state"
+        @keyup.enter="buscar"
+      ></b-form-input>
       <b-input-group-append>
         <b-button variant="info" @click="buscar">
           <unicon name="search"></unicon>

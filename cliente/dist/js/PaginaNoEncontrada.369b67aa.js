@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["PaginaNoEncontrada"],{"42ec":function(n,a,e){"use strict";e.r(a);var t=function(){var n=this,a=n.$createElement,e=n._self._c||a;return e("h1",[n._v("Página no encontrada")])},o=[],c={name:"PagNoEncontrada"},r=c,l=e("2877"),u=Object(l["a"])(r,t,o,!1,null,null,null);a["default"]=u.exports}}]);
+//# sourceMappingURL=PaginaNoEncontrada.369b67aa.js.map
